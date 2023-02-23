@@ -1,0 +1,533 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+.header nav {
+    background-color: aliceblue;
+    text-align: center;
+    height: 100%;
+    min-height: 100px;
+}
+
+.header nav ul {
+    padding: 40px;
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+    margin: 8px;
+    padding: 10px;
+}
+
+.background-image {
+    background: url("images/Rectangle46.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bakeli {
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 80px;
+    padding: 80px;
+}
+
+.bakeli img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+.text-bakeli h2 {
+    position: absolute;
+    margin: 300px 500px;
+    font-size: 15px;
+    background-color: rgb(123, 117, 117);
+    height: 10%;
+    min-height: 20px;
+    width: 19%;
+    color: #FFF;
+    padding: 22px;
+}
+
+.text-bakeli p {
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 520px;
+    font-size: 13px;
+    color: #FFF;
+    text-align: center;
+}
+
+.icons-programme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    width: 100%;
+    max-width: 100%;
+    padding: 150px;
+    gap: 220px;
+}
+
+.icon-chose {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 20px;
+    border: 1px solid rgb(34, 202, 214);
+    border-radius: 100%;
+}
+
+.icons-programme h2 {
+    font-size: 13px;
+    position: relative;
+    margin-top: 50px;
+}
+
+.icon-chose i {
+    font-size: 30px;
+    color: rgb(10, 9, 9);
+    transition: .5s;
+    margin-top: 30px;
+}
+
+.icon-chose p {
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+}
+
+.details-page .tittle {
+    background-color: rgb(225, 228, 231);
+    padding: 10px;
+    /* justify-content: center; */
+}
+
+.details-page h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.details-page ul {
+    text-align: center;
+    margin: 50px;
+    /* display: inline;
+    padding: 20px; */
+}
+
+.details-page li {
+    display: inline-block;
+    /* margin-top: 10px; */
+    margin: 40px;
+}
+
+section .modules {
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.modules {
+    margin-bottom: 10px;
+    margin: 0px 0px 80px 0px;
+    flex-wrap: wrap;
+}
+
+.modules-one {
+    display: flex;
+    /* margin: 150px; */
+}
+
+.modules-two {
+    display: flex;
+    /* margin: 150px; */
+}
+
+.wordpress {
+    background-color: antiquewhite;
+    /* margin-right: 10px; */
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.wordpress img {
+    margin-top: 55px;
+    margin-left: 35px;
+}
+
+.htmlcss {
+    background-color: rgb(147, 92, 19);
+    width: 100%;
+    /* max-width: 900px; */
+    padding: 10px;
+}
+
+.htmlcss img {
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+.canva {
+    background-color: antiquewhite;
+    width: 100%;
+    padding: 10px;
+}
+
+.canva img {
+    margin-top: 60px;
+    margin-left: 25px;
+}
+
+.js {
+    background-color: rgb(165, 97, 8);
+    width: 100%;
+    padding: 45px;
+}
+
+.js img {
+    margin-top: 20px;
+    margin-left: 55px;
+}
+
+.java {
+    background-color: rgb(16, 193, 10);
+    width: 100%;
+    max-width: 314px;
+    padding: 50px;
+}
+
+.java img {
+    margin-left: -20%;
+}
+
+.inkscape {
+    background-color: rgb(44, 3, 111);
+    width: 100%;
+    max-width: 298px;
+    padding: 49px;
+}
+
+.inkscape img {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.ae {
+    background-color: rgb(15, 206, 15);
+    width: 100%;
+    max-width: 299px;
+    padding: 40px;
+}
+
+.ae img {
+    margin-top: 45px;
+    margin-left: 15px;
+}
+
+.python {
+    background-color: rgb(44, 3, 111);
+    width: 100%;
+    padding: 30px;
+}
+
+.python img {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+/* input[type="range"] {
+  -webkit-apperance: none;
+  width: 300px;
+  height: 20px;
+  background: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+} */
+.contenu h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.contenu p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pratique-insere {
+    display: inline;
+    margin-top: 10px;
+
+}
+
+/* Progressbar */
+#percent{
+    display: inline-flex;
+    padding: 30px;
+    margin-left: 170px;
+}
+.coloneOne {
+    justify-content: center;
+    margin: 40px;
+}
+
+.coloneOne .phrase {
+    font-weight: bold;
+    font-size: 12px;
+    margin-right: 100%;
+    margin-bottom: 10px;
+}
+
+:root {
+    --success: #00b894;
+}
+
+.progressbar-wrapper {
+    background-color: #dfe6e9;
+    color: white;
+    border-radius: 15px;
+    width: 800%;
+}
+
+.progressbar {
+    background-color: var(--progress);
+    color: white;
+    padding: 0px;
+    text-align: right;
+    font-size: 10px;
+    border-radius: 15px;
+}
+
+.progressbar[title="downloading"] {
+    background-color: var(--success);
+}
+
+.progressbar[title="downloaded"] {
+    background-color: var(--success);
+}
+
+.mp4 {
+    width: 100%;
+}
+
+.mp3 {
+    width: 60%;
+}
+
+#pratique {
+    position: relative;
+    bottom: 10px;
+    color: black;
+    margin-left: 95%;
+}
+
+#bakeliste {
+    position: relative;
+    bottom: 10px;
+    color: black;
+    margin-left: 160%;
+}
+
+.coloneTwo {
+    justify-content: center;
+    margin: 40px;
+    margin-left: 140%;
+}
+
+.coloneTwo .phrase2 {
+    font-weight: bold;
+    font-size: 12px;
+    margin-right: 100%;
+    margin-bottom: 10px;
+}
+
+.team_bakeli {
+    background-color: rgb(148, 192, 177);
+    margin-top: 90px;
+    /* justify-content: center; */
+}
+
+#opportunités {
+    position: relative;
+    bottom: 10px;
+    color: black;
+    margin-left: 106%;
+}
+
+#null {
+    position: relative;
+    bottom: 10px;
+    color: black;
+    margin-left: 160%;
+}
+.mp6 {
+    width: 90%;
+}
+.mp7 {
+width: 60%;
+}
+.team_bakeli h1 {
+    text-align: center;
+    padding: 50px;
+    color: #FFF;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.team_bakeli p {
+    text-align: center;
+    justify-content: center;
+    color: #FFF;
+    padding-bottom: 10px;
+}
+
+.team_image {
+    padding-top: 50px;
+    display: flex;
+    /* margin: 10px; */
+    /* justify-content: space-between; */
+    /* margin-left: 20%; */
+    justify-content: center;
+}
+
+.team_image img {
+    width: 100%;
+    max-width: 200px;
+}
+
+.image_one {
+    background-color: aqua;
+    padding-top: 10px;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.image_two {
+    background-color: rgb(10, 40, 129);
+    padding-top: 10px;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.image_three {
+    background-color: rgb(41, 197, 6);
+    padding-top: 10px;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.image_four {
+    background-color: rgb(103, 16, 67);
+    padding-top: 10px;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.image_one p {
+    background-color: rgb(220, 229, 229);
+    color: black;
+    padding: 20px;
+}
+
+.image_two p {
+    background-color: rgb(220, 229, 229);
+    color: black;
+    padding: 20px;
+}
+
+.image_three p {
+    background-color: rgb(220, 229, 229);
+    color: black;
+    padding: 20px;
+}
+
+.image_four p {
+    background-color: rgb(220, 229, 229);
+    color: black;
+    padding: 20px;
+}
+
+.bakeli_avfin img {
+    width: 100%;
+    height: 100%;
+    max-width: 80px;
+    justify-content: center;
+    margin-left: 50%;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.bakeli_avfin p {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.info {
+    background-color: rgb(192, 194, 196);
+    height: 100%;
+    max-height: 800px;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.info h1 {
+    font-size: 15px;
+}
+
+.contenu_footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.formation {
+    line-height: 25px;
+    margin-right: 50px;
+}
+
+.contact {
+    line-height: 25px;
+    /* margin-left: 10px; */
+}
+
+.about {
+    line-height: 25px;
+    margin-left: 50px;
+}
+
+.camp {
+    line-height: 25px;
+    margin-left: 50px;
+}
+
+.icons-sociaux h2 {
+    text-align: center;
+    padding: 40px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.icons i {
+    margin: 10px;
+    cursor: pointer;
+}
